@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="SHUFFLE UP" />
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="159dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/shuffle" />
+
+    <Button
+        android:id="@+id/newButton"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/subtn"
+        android:layout_gravity="center"
+        android:text="New game"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#079984"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Exit"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#079984"
+        android:background="@drawable/subtn"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</LinearLayout>

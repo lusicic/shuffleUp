@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".FinishActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="SHUFFLE UP" />
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/win" />
+
+    <TextView
+        android:id="@+id/textWin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Congratulations! You won!" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/subtn"
+        android:layout_gravity="center"
+        android:text="PLAY AGAIN"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#079984"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="exit"
+        android:textSize="27sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#68a8a0"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</LinearLayout>
